@@ -1,4 +1,4 @@
-import { Yuji_Hentaigana_Akebono, Inter } from 'next/font/google';
+import { Yuji_Hentaigana_Akebono, Inter, Lusitana } from 'next/font/google';
 
 export const yuji = Yuji_Hentaigana_Akebono({
   weight: '400',
@@ -8,4 +8,9 @@ export const yuji = Yuji_Hentaigana_Akebono({
 
 export const inter = Inter({
   subsets: ['latin'],
+});
+
+export const lusitana = Lusitana({
+  subsets: ['latin'],
+  weight: ['400', '700'],
 });
